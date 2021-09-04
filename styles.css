@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+#socials{
+    display: inline-flex;
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: pink;
+}
+
+#socials a i:hover{
+    color: pink;
+}
+
+
+
+
+
+
+

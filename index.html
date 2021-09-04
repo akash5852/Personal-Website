@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akash Sharma's Personal Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
     <header id="header">
         <h1 class="text-center display-3" id="name">Akash Sharma</h1>
-        <nav id="nav bar">
+        <nav id="navbar">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
@@ -26,38 +29,30 @@
                 </li>
             </ul>
         </nav>
-        <nav id="socials">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/akash5852">
-                        <img src="https://image.flaticon.com/icons/png/512/179/179323.png" alt="">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="www.linkedin.com/in/akash5852">
-                        <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.instagram.com/hiakash14/">
-                        <img src="https://image.flaticon.com/icons/png/512/174/174855.png" alt="">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="mailto:shara98@mcmaster.ca">
-                        <img src="https://img-premium.flaticon.com/png/512/542/premium/542638.png?token=exp=1630769334~hmac=875c734cd0337fc22ebce44e90fa80cf"
-                            alt="">
-                    </a>
-                </li>
-            </ul>
-        </nav>
 
+        <div id="socials">
+            <a id=logo class="nav-link" href="https://github.com/akash5852">
+                <i class="bi-github" role="img" aria-label="GitHub"></i>
+            </a>
+            <a id=logo class="nav-link" href="www.linkedin.com/in/akash5852">
+                <i class="bi-linkedin" role="img" aria-label="Linkedin"></i>
+            </a>
+            <a id=logo class="nav-link" href="https://www.instagram.com/hiakash14/">
+                <i class="bi-instagram" role="img" aria-label="Instagram"></i>
+            </a>
+            <a id=logo class="nav-link" href="mailto:shara98@mcmaster.ca">
+                <i class="bi bi-mailbox2" role="img" aria-label="Mail"></i>
+
+            </a>
+        </div>
     </header>
+    <section id="About Me">
+        <p>Hey, <br> I am Akash Sharma </p>
+
+    </section>
 
     <footer>
-        <div class="text-center">
-            Icons made by <a href="https://www.flaticon.com/authors/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a>
-            from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
